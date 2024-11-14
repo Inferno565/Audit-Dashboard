@@ -4,17 +4,9 @@ import TotalPieChart from "@/Components/totalPieChart";
 import { Button } from "@/Components/ui/button";
 import { useLocation, Link } from "react-router-dom";
 import pdfMake from "pdfmake/build/pdfmake";
-import pdfFonts from "pdfmake/build/vfs_fonts";
+// import pdfFonts from "pdfmake/build/vfs_fonts";
 import Sidebar from "@/Components/Sidebar";
 import { Progress } from "@/components/ui/progress";
-
-// Set the fonts
-pdfMake.vfs = pdfFonts.pdfMake.vfs;
-
-const genPdf = () => {
-  // PDF generation logic (unchanged)
-  // ...
-};
 
 export default function ResultPage() {
   const location = useLocation();
@@ -118,8 +110,7 @@ export default function ResultPage() {
             <div className="flex gap-2 col-span-4">
               <Button
                 variant="outline"
-                className="text-lg py-10"
-                onClick={genPdf}>
+                className="text-lg py-10">
                 Download Report
               </Button>
               <Button className="text-lg py-10">
