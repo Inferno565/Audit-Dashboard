@@ -6,11 +6,11 @@ import ResultPage from "./pages/resultPage";
 import ThemeToggle from "./Components/themeToggle";
 import LoginPage from "./pages/loginPage";
 import ProfilePage from "./pages/profilePage";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import RemediationPage from "./pages/remediationPage";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/dash",
       element: <HomePage />,
