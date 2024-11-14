@@ -1,5 +1,5 @@
 import NewTestForm from "@/Components/newTestForm";
-import Sidebar from "@/Components/Sidebar";
+import Sidebar from "@/Components/idebar";
 import React from "react";
 
 export default function newTestPage() {

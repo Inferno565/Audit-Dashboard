@@ -11,10 +11,9 @@ import {
   ShoppingCart,
   Upload,
   Users2,
-  FileCheck
+  FileCheck,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-
 
 import {
   Tooltip,
@@ -23,7 +22,6 @@ import {
 } from "@/components/ui/tooltip";
 import { TooltipProvider } from "@radix-ui/react-tooltip";
 import ThemeToggle from "./themeToggle";
-
 
 export default function Sidebar() {
   return (
@@ -52,7 +50,7 @@ export default function Sidebar() {
             </Tooltip>
           </TooltipProvider>
           {/* Home option */}
-          
+
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
@@ -68,7 +66,6 @@ export default function Sidebar() {
           </TooltipProvider>
           {/* Reports Option */}
 
-
           {/* <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
@@ -82,8 +79,6 @@ export default function Sidebar() {
               <TooltipContent side="right">Orders</TooltipContent>
             </Tooltip>
           </TooltipProvider> */}
-
-        
         </nav>
         <nav className="mt-auto flex flex-col items-center gap-4 px-2 py-4">
           <TooltipProvider>
