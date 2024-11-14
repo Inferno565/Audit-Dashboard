@@ -5,7 +5,7 @@ import { Button } from "@/Components/ui/button";
 import { useLocation, Link } from "react-router-dom";
 import pdfMake from "pdfmake/build/pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
-import Sidebar from "@/Components/idebar";
+import Sidebar from "@/Components/Sidebar";
 import { Progress } from "@/components/ui/progress";
 
 // Set the fonts

@@ -1,5 +1,5 @@
 import React from "react";
-import Sidebar from "@/Components/idebar";
+import Sidebar from "@/Components/Sidebar";
 import Remediate from "@/Components/Remediate";
 export default function RemediationPage() {
   return (
