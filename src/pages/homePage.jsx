@@ -1,5 +1,5 @@
-import Dashboard from "../Components/Dashboard";
-import Sidebar from "../Components/Sidebar";
+import Dashboard from "@/Components/Dashboard";
+import Sidebar from "@/Components/Sidebar";
 
 function HomePage() {
   return (
