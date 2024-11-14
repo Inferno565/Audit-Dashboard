@@ -1,5 +1,5 @@
 import React from "react";
-import LoginForm from "@/Components/loginForm";
+import LoginForm from "@/Components/LoginForm";
 import ThemeToggle from "@/Components/themeToggle";
 
 export default function LoginPage() {
