@@ -1,12 +1,12 @@
 {
-  "homepage": ".",
+  "homepage": "https://Inferno565.github.io/Audit_Dashboard",
   "name": "secure-sage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
