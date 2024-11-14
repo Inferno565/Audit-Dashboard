@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import CategoricalBarChart from "@/Components/categoricalBarChart";
 import TotalPieChart from "@/Components/totalPieChart";
 import { Button } from "@/Components/ui/button";
-import { useLocation , Link} from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import pdfMake from "pdfmake/build/pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
-import Sidebar from "@/Components/sidebar";
+import Sidebar from "@/Components/Sidebar";
 import { Progress } from "@/components/ui/progress";
 
 // Set the fonts
@@ -83,7 +83,7 @@ export default function ResultPage() {
           Results for Test {data.testName}
         </h2>
       </header>
-      
+
       <main className="flex">
         <Sidebar />
 

@@ -1,5 +1,5 @@
 import NewTestForm from "@/Components/newTestForm";
-import Sidebar from "@/Components/sidebar";
+import Sidebar from "@/Components/Sidebar";
 import React from "react";
 
 export default function newTestPage() {
@@ -8,7 +8,7 @@ export default function newTestPage() {
       <main className="flex">
         <Sidebar />
         <div className="flex-1 ml-16 p-4">
-          <NewTestForm/>
+          <NewTestForm />
         </div>
       </main>
     </>
